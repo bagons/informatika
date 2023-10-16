@@ -19,8 +19,6 @@ def test_sort():
     else:
         print("prošel")
 
-#print(bubble_sort(list(map(lambda x : int(x), input("").split(",")))))
-
 #for _ in range(100):
 #    test_sort()
 

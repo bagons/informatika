@@ -1,6 +1,7 @@
 import os
 from random import randint
 
+# ta realná sort funcke
 def bubble_sort(sort_in):
     for _ in range(len(sort_in)):
         for i in range(len(sort_in) - 1):
@@ -8,6 +9,7 @@ def bubble_sort(sort_in):
                 sort_in.insert(i + 1, sort_in.pop(i))
     return sort_in
 
+# tester toho jestli ta moje funkce funguje (zkouší to na základně .sort())
 def test_sort():
     vzorek = []
     for _ in range(100):
@@ -22,7 +24,7 @@ def test_sort():
 #for _ in range(100):
 #    test_sort()
 
-
+# vytváří soubory s náhodně zamíchanými čísly
 def create_files(path, count, num_count):
     for i in range(count):
         file = open(path + "/" + str(i) + ".txt", "w")
@@ -30,7 +32,7 @@ def create_files(path, count, num_count):
         file.close()
 
 
-
+# nachází soubory a seřazuje v nich náhodně zamíchané čísla, načeš soubor upravý s objektivně lepšími změnami
 def find_files(path):
     for file_nam in os.listdir(path):
         file = open(path + "/" + file_nam)

@@ -2,6 +2,6 @@
 
 Vypíše všechny pátky 13. mezi dvěma daty.
 
-vstup:
+**vstup:**
 1. datum (formát:YYYY-MM-DD)
 2. datum (formát:YYYY-MM-DD) 

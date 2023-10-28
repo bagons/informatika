@@ -6,4 +6,4 @@ první 3 úlohy
 3. rucksacks.py
 
 Všechny programy přímají vstup v proměné "inpt".
-Vím, že je to hloupé, ale zadání obsahují \n a je otravné to vkládat do inputu / std.in
+Vím, že je to hloupé, ale zadání obsahují \n a je otravné to vkládat do inputu

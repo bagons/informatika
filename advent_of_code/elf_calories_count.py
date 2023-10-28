@@ -14,4 +14,5 @@ inpt = """1000
 9000
 
 10000"""
+# rozdělí inpt na jednotlivé elfy (\n\n) -> rozdělí na jednotlivé jídla -> sečte je -> vrátí do pole (celkové kalorie každého elfa) -> vrátí největší číslo v poli
 print(numpy.max(list(map(lambda a: reduce(lambda c, d: c + d, list(map(lambda b: int(b), a.split("\n")))), inpt.split("\n\n")))))

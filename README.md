@@ -1,3 +1,4 @@
 # Informatika
 různé úlohy z informatiky
-každé oddělení má vlastní .md
+
+každé oddělení má vlastní readme.md

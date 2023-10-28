@@ -39,5 +39,6 @@ def find_files(path):
         print(file_nam, "- sorted:", bubble_sort(list(map(lambda x: int(x), file.read().split(",")))), "\n\n")
         file.close()
 
-create_files(os.getcwd() + "/files", 1000, 200)
-find_files(os.getcwd() + "/files")
+if __name__ == "__main__":
+    create_files(os.getcwd() + "/files", 1000, 200)
+    find_files(os.getcwd() + "/files")
